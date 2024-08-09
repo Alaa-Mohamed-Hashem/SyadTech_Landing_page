@@ -1,0 +1,62 @@
+.landingStats {
+  background: linear-gradient(
+    180deg,
+    rgba(46, 115, 95, 0.3) 0%,
+    rgba(46, 115, 95, 0) 100%
+  );
+  padding: 40px 0;
+}
+
+.statCard {
+  padding: 40px !important;
+}
+
+.statDiv {
+  position: relative;
+  transition: all 0.3s;
+  overflow: hidden;
+}
+
+.statDivImg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.statDivImg img {
+  width: 100%;
+  transition: transform 0.2s ease-in-out;
+  will-change: transform;
+}
+
+.statDiv:hover img {
+  transform: scale(1.2);
+}
+
+.statDivInfo {
+  position: absolute;
+  width: 100%;
+  transform: translateY(-50%);
+  text-align: center;
+  margin: auto;
+  top: 50%;
+}
+
+.statDivInfo h4 {
+  font-family: "geMedium";
+  color: #fff;
+  padding-top: 10px;
+  font-weight: bold;
+}
+
+.statDivInfo p {
+  font-size: 16px;
+  color: #fff;
+  font-family: "dinNext";
+}
+
+@media (min-width: 1000px) {
+  .statTop {
+    margin-top: 100px;
+  }
+}

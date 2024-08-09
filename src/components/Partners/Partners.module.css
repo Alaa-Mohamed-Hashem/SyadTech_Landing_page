@@ -1,0 +1,28 @@
+.parteners {
+  background: linear-gradient(180deg, #f9f9f900, #f9f9f9);
+  padding-bottom: 40px;
+}
+.partenersTitle {
+  color: #3e3e3e;
+  font-family: dinNext;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 0 !important;
+  padding-top: 15px;
+  text-align: center;
+}
+
+.titleDivider {
+  background-color: #f2d785;
+  margin-bottom: 20px;
+  height: 4px;
+  margin: auto auto 15px;
+  text-align: center;
+  width: 80px;
+}
+
+.partnerImage {
+  object-fit: cover;
+  margin: auto;
+}

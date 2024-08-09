@@ -1,0 +1,127 @@
+/* Base Styles */
+.nav {
+  padding: 20px 0 !important;
+  background-color: transparent;
+  transition: 0.3s;
+}
+
+.navTransparent {
+  background-color: transparent;
+}
+
+.navScrolled {
+  padding: 6px 25px !important;
+  background-color: #fff !important;
+  box-shadow: 0 0 10px rgba(169, 169, 169, 0.5);
+}
+
+.navScrolled.nav a {
+  color: #707070 !important;
+  font-size: 20px !important;
+  font-weight: 400 !important;
+}
+
+.navbarBrand {
+  display: flex;
+}
+
+.logoImg {
+  width: 251px;
+}
+
+.login_in {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.login_in span {
+  margin-right: 3px;
+}
+
+/* Navigation Links */
+.nav a {
+  padding: 0 18px !important;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  font-size: 18px;
+}
+
+.nav a:hover {
+  color: #ddd;
+}
+
+/* Custom Toggler */
+.customToggler {
+  border: none;
+  background-color: rgba(0, 0, 0, 0.1) !important;
+  outline: none;
+}
+
+.customToggler .navbarToggler-icon {
+  background-image: url('data:image/svg+xml;charset=utf8,%3Csvg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath stroke="rgba%28112, 112, 112, 1%29" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E') !important;
+  width: 30px;
+  height: 30px;
+}
+
+.customToggler:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Nav Links Container */
+.navLinks {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .logo {
+    display: none;
+  }
+
+  .nav {
+    padding: 6px 25px !important;
+    background-color: #fff !important;
+    box-shadow: 0 0 10px rgba(169, 169, 169, 0.5);
+    flex-direction: row-reverse;
+  }
+
+  .navLinks {
+    margin-top: 25px;
+  }
+
+  .nav a {
+    color: #707070 !important;
+    font-size: 20px !important;
+    font-weight: 400 !important;
+    text-align: right;
+    margin-bottom: 32px !important;
+    width: 100%;
+    padding: 0 0px !important;
+  }
+
+  .desktopSVG {
+    display: none;
+  }
+
+  .mobileSVG {
+    display: block !important;
+  }
+
+  .headerContent h1,
+  .headerContent h2 {
+    font-size: 29px;
+  }
+
+  .mobileSVG {
+    display: block !important;
+  }
+}
+
+.mobileSVG {
+  display: none;
+}
